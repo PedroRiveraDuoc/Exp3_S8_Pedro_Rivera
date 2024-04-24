@@ -19,6 +19,7 @@ public class UsuarioController {
     @Autowired
     private UsuarioService usuarioService;
 
+    //Cambiar para usar HATEOAS
     // Endpoint para obtener todos los usuarios registrados.
     @GetMapping
     public List<Usuario> getAllUsuarios() {
