@@ -14,7 +14,7 @@ public class UsuarioServiceImpl implements UsuarioService {
     public UsuarioServiceImpl(UsuarioRepository usuarioRepository) {
         this.usuarioRepository = usuarioRepository;
     }
-
+    // Implementación de los métodos de la interfaz UsuarioService
     @Override
     public Usuario addUsuario(Usuario usuario) {
         return usuarioRepository.save(usuario);
