@@ -1,4 +1,4 @@
-#FROM openjdk:21-ea-24-oracle
+#FROM openjdk:21-ea-24-oracle 
 FROM openjdk:21-jdk
 WORKDIR /app
 #aqui debemos asegurarnos del nombre de nuestro jar coincida
