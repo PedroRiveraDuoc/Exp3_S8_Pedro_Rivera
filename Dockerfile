@@ -1,5 +1,5 @@
-FROM openjdk:21-ea-24-oracle
-#FROM openjdk:21-jdk
+#FROM openjdk:21-ea-24-oracle
+FROM openjdk:21-jdk
 WORKDIR /app
 #aqui debemos asegurarnos del nombre de nuestro jar coincida
 COPY target/exp2_s6_pedro_rivera-0.0.1-SNAPSHOT.jar app.jar
