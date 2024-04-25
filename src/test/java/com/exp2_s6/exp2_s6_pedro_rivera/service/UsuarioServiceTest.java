@@ -48,7 +48,7 @@ public class UsuarioServiceTest {
         assertEquals(newUser.getNombre(), expeUsuario.getNombre());
     }
 
-    @Test
+    @Test // Cambiar a DataIntegrityViolationException
     public void testAddUsuarioError() {
         assertThrows(AssertionFailedError.class, () -> { // Cambiar a DataIntegrityViolationException
             Usuario newUser = new Usuario();
