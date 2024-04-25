@@ -7,14 +7,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
-import org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties.Web;
+//import org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties.Web;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.validation.annotation.Validated;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Min;
 import java.util.List;
-import java.util.Optional;
+//import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Validated
@@ -25,7 +25,6 @@ public class UsuarioController {
     @Autowired
     private UsuarioService usuarioService;
 
-    //Cambiar para usar HATEOAS 
     // Endpoint para obtener todos los usuarios registrados.
     @GetMapping
     public CollectionModel<EntityModel<Usuario>> getAllUsuarios() {
