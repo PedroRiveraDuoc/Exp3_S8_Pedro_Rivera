@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.exp2_s6.exp2_s6_pedro_rivera.repository.UsuarioRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.989 s -- in com.exp2_s6.exp2_s6_pedro_rivera.repository.UsuarioRepositoryTest

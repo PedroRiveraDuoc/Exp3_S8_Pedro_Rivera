@@ -1,0 +1,8 @@
+com\exp2_s6\exp2_s6_pedro_rivera\controller\UsuarioController.class
+com\exp2_s6\exp2_s6_pedro_rivera\service\UsuarioService.class
+com\exp2_s6\exp2_s6_pedro_rivera\Exp2S6PedroRiveraApplication.class
+com\exp2_s6\exp2_s6_pedro_rivera\model\Rol.class
+com\exp2_s6\exp2_s6_pedro_rivera\model\Usuario.class
+com\exp2_s6\exp2_s6_pedro_rivera\model\Direccion.class
+com\exp2_s6\exp2_s6_pedro_rivera\repository\UsuarioRepository.class
+com\exp2_s6\exp2_s6_pedro_rivera\service\UsuarioServiceImpl.class
